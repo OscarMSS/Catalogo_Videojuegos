@@ -91,13 +91,12 @@ public class MenuManager {
 
     public void editarDatos(){
         System.out.println("========== Menú de Edición ==========");
-        System.out.println("1. Editar Nombre.");
-        System.out.println("2. Editar Clasificación.");
-        System.out.println("3. Editar Plataforma.");
-        System.out.println("4. Editar Puntuación.");
-        System.out.println("5. Editar Precio.");
-        System.out.println("6. Editar Cantidad.");
-        System.out.println("7. Cancelar.");
+        System.out.println("1. Editar Clasificación.");
+        System.out.println("2. Editar Plataforma.");
+        System.out.println("3. Editar Puntuación.");
+        System.out.println("4. Editar Precio.");
+        System.out.println("5. Editar Cantidad.");
+        System.out.println("6. Cancelar.");
         System.out.println("\nElija una Opción: ");
     }
 

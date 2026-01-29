@@ -86,7 +86,26 @@ public class Producion implements Metodos{
 
                 //SWITCH PARA PODER EDITAR CADA DATO
                 switch (opcion) {
-
+                    case 1 :
+                        editor.editarClasificacion(juego);
+                        break;
+                    case 2 :
+                        editor.editarPlataforma(juego);
+                        break;
+                    case 3 :
+                        editor.editarPuntuacion(juego);
+                        break;
+                    case 4 :
+                        editor.editarPrecio(juego);
+                        break;
+                    case 5 :
+                        editor.editarCantidad(juego);
+                        break;
+                    case 6 :
+                        bandera = true;
+                        break;
+                    default:
+                        break;
                 }
             }while(!bandera);
 

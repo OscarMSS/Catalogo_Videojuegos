@@ -41,6 +41,7 @@ public class App {
                     metodo.mostrarInventario();
                     break;
                 case 6 :
+                    bandera = true;
                     break;
                 default:
                     bandera = true;
