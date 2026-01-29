@@ -1,10 +1,8 @@
 package Model;
 
-import Model.Videojuego;
 import Utilidades.InputManager;
 import Utilidades.MenuManager;
 import java.util.HashMap;
-import java.util.Map;
 
 
 public class Producion implements Metodos{
@@ -108,15 +106,6 @@ public class Producion implements Metodos{
                         break;
                 }
             }while(!bandera);
-
-
-
-
-
-
-
-
-
         }
 
     }

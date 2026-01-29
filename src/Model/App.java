@@ -1,7 +1,6 @@
 package Model;
 import Utilidades.InputManager;
 import Utilidades.MenuManager;
-import Model.Producion;
 
 
 public class App {

@@ -1,5 +1,4 @@
 package Model;
-import Model.Producion;
 import Utilidades.InputManager;
 import Utilidades.MenuManager;
 
